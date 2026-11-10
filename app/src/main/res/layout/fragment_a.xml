@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F0F8FF"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/bg_aquarium_card"
+            android:padding="16dp">
+
+            <ImageView
+                android:id="@+id/imgAquarium"
+                android:layout_width="match_parent"
+                android:layout_height="210dp"
+                android:src="@drawable/akvarium_obdelnikove"
+                android:scaleType="centerCrop"
+                android:contentDescription="Obdélníkové akvárium"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Obdélníkové akvárium"
+                android:textColor="#123C53"
+                android:textSize="24sp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Klasický a nejoblíbenější tvar akvária, vhodný pro začátečníky i zkušené akvaristy."
+                android:textColor="#526875"
+                android:textSize="15sp"
+                android:lineSpacingExtra="4dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="#E8F4FA"
+                android:padding="14dp"
+                android:text="Objem: 110 l\n\nRozměry: 80 × 35 × 40 cm\n\nOrientační cena: 3 990 Kč"
+                android:textColor="#174C68"
+                android:textSize="16sp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Proč si vybrat tento typ?"
+                android:textColor="#123C53"
+                android:textSize="19sp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="✓ Široký výběr velikostí\n\n✓ Snadné umístění a údržba\n\n✓ Vhodné pro různé druhy ryb a rostlin"
+                android:textColor="#526875"
+                android:textSize="15sp"/>
+
+            <Button
+                android:id="@+id/btnMoreInfo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:text="Více informací"
+                android:textAllCaps="false"
+                android:backgroundTint="#24637D"
+                android:textColor="#FFFFFF"/>
+
+            <TextView
+                android:id="@+id/tvMoreInfo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:padding="12dp"
+                android:background="#E8F4FA"
+                android:text="Obdélníkové akvárium poskytuje dostatek prostoru pro vytvoření přírodního prostředí s rostlinami, dekoracemi a rybami.\n\nDíky svému tvaru umožňuje dobré pozorování ryb a snadnou instalaci běžné filtrace i osvětlení.\n\nPřed výběrem konkrétních ryb je důležité ověřit jejich nároky na prostor a podmínky chovu."
+                android:textSize="14sp"
+                android:textColor="#174C68"
+                android:lineSpacingExtra="4dp"
+                android:visibility="gone"/>
+
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

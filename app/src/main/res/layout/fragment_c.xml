@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F0F8FF"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/bg_aquarium_card"
+            android:padding="16dp">
+
+            <ImageView
+                android:id="@+id/imgAquarium"
+                android:layout_width="match_parent"
+                android:layout_height="210dp"
+                android:src="@drawable/akvarium_hexa"
+                android:scaleType="centerCrop"
+                android:contentDescription="Hexagonální akvárium"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Hexagonální akvárium"
+                android:textColor="#123C53"
+                android:textSize="24sp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Moderní šestihranné akvárium, které vynikne v každém interiéru a nabídne netradiční pohled do podvodního světa."
+                android:textColor="#526875"
+                android:textSize="15sp"
+                android:lineSpacingExtra="4dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="#E8F4FA"
+                android:padding="14dp"
+                android:text="Objem: 80 l\n\nRozměry: 50 × 50 × 45 cm\n\nOrientační cena: 4 790 Kč"
+                android:textColor="#174C68"
+                android:textSize="16sp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Proč si vybrat tento typ?"
+                android:textColor="#123C53"
+                android:textSize="19sp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="✓ Originální šestihranný design\n\n✓ Možnost pozorování z více stran\n\n✓ Stylový doplněk domácnosti i kanceláře"
+                android:textColor="#526875"
+                android:textSize="15sp"/>
+
+            <Button
+                android:id="@+id/btnMoreInfo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:text="Více informací"
+                android:textAllCaps="false"
+                android:backgroundTint="#24637D"
+                android:textColor="#FFFFFF"/>
+
+            <TextView
+                android:id="@+id/tvMoreInfo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:padding="12dp"
+                android:background="#E8F4FA"
+                android:text="Hexagonální akvárium kombinuje praktické využití s moderním vzhledem. Díky šesti skleněným stranám nabízí zajímavý pohled na podvodní prostředí z různých úhlů.\n\nJe vhodné pro vytvoření rostlinné kompozice s dekoracemi a vhodně zvolenými živočichy.\n\nPři zařizování je důležité zohlednit skutečný objem vody, plochu dna a prostor pro filtraci."
+                android:textSize="14sp"
+                android:textColor="#174C68"
+                android:lineSpacingExtra="4dp"
+                android:visibility="gone"/>
+
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

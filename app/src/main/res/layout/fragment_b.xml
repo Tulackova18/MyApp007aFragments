@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F0F8FF"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/bg_aquarium_card"
+            android:padding="16dp">
+
+            <ImageView
+                android:id="@+id/imgAquarium"
+                android:layout_width="match_parent"
+                android:layout_height="210dp"
+                android:src="@drawable/akvarium_kulate"
+                android:scaleType="centerCrop"
+                android:contentDescription="Kulaté akvárium"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Kulaté akvárium"
+                android:textColor="#123C53"
+                android:textSize="24sp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Elegantní a kompaktní akvárium, které zaujme svým netradičním tvarem a stane se zajímavým doplňkem interiéru."
+                android:textColor="#526875"
+                android:textSize="15sp"
+                android:lineSpacingExtra="4dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="#E8F4FA"
+                android:padding="14dp"
+                android:text="Objem: 30 l\n\nRozměry: průměr 40 cm\n\nOrientační cena: 1 290 Kč"
+                android:textColor="#174C68"
+                android:textSize="16sp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Proč si vybrat tento typ?"
+                android:textColor="#123C53"
+                android:textSize="19sp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="✓ Kompaktní rozměry\n\n✓ Atraktivní kulatý design\n\n✓ Vhodné jako dekorativní nádoba pro vodní rostliny"
+                android:textColor="#526875"
+                android:textSize="15sp"/>
+
+            <Button
+                android:id="@+id/btnMoreInfo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:text="Více informací"
+                android:textAllCaps="false"
+                android:backgroundTint="#24637D"
+                android:textColor="#FFFFFF"/>
+
+            <TextView
+                android:id="@+id/tvMoreInfo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:padding="12dp"
+                android:background="#E8F4FA"
+                android:text="Kulaté akvárium je zajímavé především svým dekorativním vzhledem. Díky oblému sklu nabízí netradiční pohled na vodní prostředí.\n\nJe však potřeba počítat s tím, že kulatý tvar komplikuje instalaci běžné filtrace a může omezovat prostor pro plavání ryb.\n\nProto je vhodné především pro rostlinné aranžmá. Pro chov ryb je obecně praktičtější klasické obdélníkové akvárium."
+                android:textSize="14sp"
+                android:textColor="#174C68"
+                android:lineSpacingExtra="4dp"
+                android:visibility="gone"/>
+
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
